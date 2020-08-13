@@ -1,0 +1,2 @@
+[2020-08-11 19:12:24.472] [sharedprocess] [info] main {"machineId":"14c06a84ce0ab3d1375dc100e41b7173daf292b85ea574884f1951036b28612a","windowId":2}
+[2020-08-11 19:12:24.550] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/purhank/.config/Code/User/snippets'

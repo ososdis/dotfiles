@@ -1,0 +1,2140 @@
+{
+	"folder_history":
+	[
+		"/home/purhank/Desktop/Coding Library",
+		"/home/purhan/Desktop/Coding Library",
+		"/home/purhan/Desktop/DSA-templates",
+		"/home/purhan/Desktop/DSA-templates/Tests",
+		"/home/purhan/Desktop/Algorithmic Toolbox Material/Submissions",
+		"/home/purhan/Desktop/DSA-templates/Test"
+	],
+	"last_version": 3211,
+	"last_window_id": 98,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rand",
+						"random_string"
+					],
+					[
+						"find",
+						"findMaximumPairs"
+					],
+					[
+						"max",
+						"maxSum"
+					],
+					[
+						"coun",
+						"countUniquePairs_optimized"
+					],
+					[
+						"count",
+						"countEqualSum"
+					],
+					[
+						"miin",
+						"miinA"
+					],
+					[
+						"cpp",
+						"cpp\tcpp"
+					],
+					[
+						"curr",
+						"curr_sum"
+					],
+					[
+						"min",
+						"minSum"
+					],
+					[
+						"solve",
+						"solve2"
+					],
+					[
+						"tmep",
+						"temp2"
+					],
+					[
+						"index",
+						"index_stack"
+					],
+					[
+						"star",
+						"start_height"
+					],
+					[
+						"prin",
+						"printIntersection"
+					],
+					[
+						"si",
+						"SieveOfEratosthenes"
+					],
+					[
+						"div",
+						"divCount"
+					],
+					[
+						"cn",
+						"cnt1"
+					],
+					[
+						"cnt",
+						"cnt0"
+					],
+					[
+						"e",
+						"enl"
+					],
+					[
+						"cout",
+						"countDivisors"
+					],
+					[
+						"for",
+						"forev"
+					],
+					[
+						"fo",
+						"fo"
+					],
+					[
+						"print",
+						"printString"
+					],
+					[
+						"if",
+						"ifelse\tif(…) else"
+					],
+					[
+						"temp",
+						"tempMiin"
+					],
+					[
+						"tem",
+						"tempMxx"
+					],
+					[
+						"tempm",
+						"tempMin"
+					],
+					[
+						"m",
+						"multiply"
+					],
+					[
+						"res",
+						"resSize"
+					],
+					[
+						"fill",
+						"fillHash"
+					],
+					[
+						"dis",
+						"distElements"
+					],
+					[
+						"do",
+						"double"
+					],
+					[
+						"int",
+						"int64_t"
+					],
+					[
+						"c",
+						"cf-atcoder-cc-template\tcf-atcoder-cc-template"
+					],
+					[
+						"so",
+						"sortall"
+					],
+					[
+						"laste",
+						"lasteli"
+					],
+					[
+						"las",
+						"lastel"
+					],
+					[
+						"last",
+						"lastaxis"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"grey",
+						"grey3"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-alt.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							"Run in Terminal"
+						]
+					],
+					[
+						"Packages/User/CP-build-alt.sublime-build",
+						"Run in Terminal"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-no-timeout.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-no-timeout.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-no-timeout.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-system.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-system.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-system.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"toggle men",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"format",
+						"Clang Format: Format Selection"
+					],
+					[
+						"clang",
+						"Clang Format: Format Selection"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"package install",
+						"Package Control: Install Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"enable paca",
+						"Package Control: Enable Package"
+					],
+					[
+						"package ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"package",
+						"Package Control: Add Repository"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"vim",
+						"Preferences: ActualVim Settings"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"theme",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"them",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"sele",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"selec",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"select them",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus:",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus ke",
+						"Preferences: Terminus Key Bindings"
+					],
+					[
+						"list",
+						"Terminus: List Shells"
+					],
+					[
+						"key ",
+						"Preferences: Terminus Key Bindings"
+					],
+					[
+						"oackage insta",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"terminus",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Arithmetic"
+					],
+					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"package rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					],
+					[
+						"the",
+						"Themr: List themes"
+					],
+					[
+						"color ",
+						"UI: Select Color Scheme"
+					],
+					[
+						"package inst",
+						"Package Control: Install Package"
+					],
+					[
+						"color sc",
+						"UI: Select Color Scheme"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"package insa",
+						"Package Control: Install Package"
+					],
+					[
+						"snippet main",
+						"Snippet: main()"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"remove package",
+						"Package Control: Remove Package"
+					],
+					[
+						"package insta",
+						"Package Control: Install Package"
+					],
+					[
+						"resour",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"terminus theme",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus u",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"package remp",
+						"Package Control: Remove Package"
+					],
+					[
+						"package insat",
+						"Package Control: Install Package"
+					],
+					[
+						"term",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"package dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"resours",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open de",
+						"Terminus: Open Default Shell in Panel"
+					],
+					[
+						"package resou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"package re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"termin",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"package Control ",
+						"Package Control: Remove Package"
+					],
+					[
+						"package resource",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"packageresou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"packagereso",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 345.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/purhank/Desktop/Coding Library/Ongoing/f.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/d.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/c.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/b.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/c.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
+				"/home/purhan/Desktop/Coding Library/notes.txt",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/b.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhan/Desktop/template.cpp",
+				"/home/purhan/Desktop/Coding Library/.gitignore",
+				"/home/purhan/Desktop/Coding Library/Ongoing/apartments.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/dice_combinations.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/distinct_numbers.cpp",
+				"/home/purhan/Desktop/Coding Library/IDE/vim/.vimrc",
+				"/home/purhan/Desktop/a.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/output.txt",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/CP-build-system.sublime-build",
+				"/home/purhan/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/h.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/d.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/input.txt",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/template.sublime-snippet",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/coin_combinations_ii.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/coin_combinations_i.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/minimizing_coins.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/two_knights.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/permutations.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/number_spiral.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/repetitions.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/increasing_array.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/missing_number.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/weird_algorithm.cpp",
+				"/home/purhan/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+				"/tmp/kite_tutorial.py",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/s.sh",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/brute_output.txt",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/original",
+				"/home/purhan/Desktop/Coding Library/IDE/template.cpp",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/cp-template.sublime-snippet",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/EVENTUAL.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/ORTHODOX.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/BOJACK.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/k.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/DRGNDEN.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CHFNSWPS.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/DRCHEF.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CRDGAME.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/PTMSSNG.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/brute.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/solution.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/s.sh",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/testcase_generator.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/subject.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/gen.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/brute_output.txt",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/source.cpp",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/source0.cpp",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/compare.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Other Classic Problems/Binary Search.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/1373C.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/450A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/1369A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/1187B.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/1265B.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/43B.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/755A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/1341A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/500A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/445A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/112/A[ Petya and Strings ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/344/B[ Simple Molecules ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/347/B[ Fixed Points ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/4/A[ Watermelon ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/447/A[ DZY Loves Hash ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/43/B[ Letter ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/41/A[ Translation ].cpp",
+				"/home/purhan/Desktop/CP trashcan/parser.py",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/downloaded",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/ADAKING.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CHEFSTR1.cpp",
+				"/home/purhan/Desktop/temp.py",
+				"/home/purhan/Desktop/Coding Library/Ongoing/j.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Dynamic Programming/1D Max Sum (Kadane).cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Dynamic Programming/1D Max Sum (Kanade).cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/input.txt",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/LTIME85B/INCRDEC.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/LTIME85B/CHFMOT18.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/GUESSG(partial).cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/EVENM.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/XYSTR.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/EOEO.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/CHFICRM.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/PRICECON.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Competitive-Programming-master/Number Theory/power.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Competitive-Programming-master/Number Theory/Fibonancci.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Greedy/nMeetings.cpp",
+				"/home/purhan/Desktop/Coding Library/Data Structures/Heap/heap.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/b.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/a.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/output.txt",
+				"/home/purhan/Desktop/Coding Library/codechef_july.cpp",
+				"/home/purhan/Downloads/DRCHEF.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/g.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/k.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/j.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/h.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/e.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/f.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/d.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/c.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/i.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/Sieve of Eratosthenes.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp",
+				"/home/purhan/Desktop/DSA-templates/Tests/b.cpp",
+				"/home/purhan/Desktop/DSA-templates/Tests/a.cpp",
+				"/home/purhan/Desktop/Coursera/Algorithms on Graphs/week2_decomposition2/2_toposort/toposort.cpp",
+				"/home/purhan/Desktop/Coursera/Algorithms on Graphs/week2_decomposition2/1_acyclicity/acyclicity.cpp",
+				"/home/purhan/Desktop/DSA-templates/Tests/i.cpp"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 109.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"long long ",
+					"k2",
+					"k1",
+					"temp",
+					"lastprintedIdx",
+					"freq",
+					"freqS",
+					"int"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 49.0
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.Terminus":
+			{
+				"height": 121.0
+			},
+			"output.Terminus Build Results":
+			{
+				"height": 136.0
+			},
+			"output.astyle_error_message":
+			{
+				"height": 133.0
+			},
+			"output.exec":
+			{
+				"height": 32.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/CP-build-system.sublime-build",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"bina",
+						"Algorithms/Other Classic Problems/Binary Search.cpp"
+					],
+					[
+						"kada",
+						"Algorithms/Dynamic Programming/1D Max Sum (Kadane).cpp"
+					],
+					[
+						"sieve",
+						"Algorithms/Math/Sieve of Eratosthenes.cpp"
+					],
+					[
+						"isp",
+						"Algorithms/Math/isPrime.cpp"
+					],
+					[
+						"sie",
+						"Algorithms/Math/Sieve of Eratosthenes.cpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 356.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rand",
+						"random_string"
+					],
+					[
+						"find",
+						"findMaximumPairs"
+					],
+					[
+						"max",
+						"maxSum"
+					],
+					[
+						"coun",
+						"countUniquePairs_optimized"
+					],
+					[
+						"count",
+						"countEqualSum"
+					],
+					[
+						"miin",
+						"miinA"
+					],
+					[
+						"cpp",
+						"cpp\tcpp"
+					],
+					[
+						"curr",
+						"curr_sum"
+					],
+					[
+						"min",
+						"minSum"
+					],
+					[
+						"solve",
+						"solve2"
+					],
+					[
+						"tmep",
+						"temp2"
+					],
+					[
+						"index",
+						"index_stack"
+					],
+					[
+						"star",
+						"start_height"
+					],
+					[
+						"prin",
+						"printIntersection"
+					],
+					[
+						"si",
+						"SieveOfEratosthenes"
+					],
+					[
+						"div",
+						"divCount"
+					],
+					[
+						"cn",
+						"cnt1"
+					],
+					[
+						"cnt",
+						"cnt0"
+					],
+					[
+						"e",
+						"enl"
+					],
+					[
+						"cout",
+						"countDivisors"
+					],
+					[
+						"for",
+						"forev"
+					],
+					[
+						"fo",
+						"fo"
+					],
+					[
+						"print",
+						"printString"
+					],
+					[
+						"if",
+						"ifelse\tif(…) else"
+					],
+					[
+						"temp",
+						"tempMiin"
+					],
+					[
+						"tem",
+						"tempMxx"
+					],
+					[
+						"tempm",
+						"tempMin"
+					],
+					[
+						"m",
+						"multiply"
+					],
+					[
+						"res",
+						"resSize"
+					],
+					[
+						"fill",
+						"fillHash"
+					],
+					[
+						"dis",
+						"distElements"
+					],
+					[
+						"do",
+						"double"
+					],
+					[
+						"int",
+						"int64_t"
+					],
+					[
+						"c",
+						"cf-atcoder-cc-template\tcf-atcoder-cc-template"
+					],
+					[
+						"so",
+						"sortall"
+					],
+					[
+						"laste",
+						"lasteli"
+					],
+					[
+						"las",
+						"lastel"
+					],
+					[
+						"last",
+						"lastaxis"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"grey",
+						"grey3"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "\n#\n# ~/.bashrc\n#\n\n[[ $- != *i* ]] && return\n\ncolors() {\n    local fgc bgc vals seq0\n\n    printf \"Color escapes are %s\\n\" '\\e[${value};...;${value}m'\n    printf \"Values 30..37 are \\e[33mforeground colors\\e[m\\n\"\n    printf \"Values 40..47 are \\e[43mbackground colors\\e[m\\n\"\n    printf \"Value  1 gives a  \\e[1mbold-faced look\\e[m\\n\\n\"\n\n    # foreground colors\n    for fgc in {30..37}; do\n        # background colors\n        for bgc in {40..47}; do\n            fgc=${fgc#37} # white\n            bgc=${bgc#40} # black\n\n            vals=\"${fgc:+$fgc;}${bgc}\"\n            vals=${vals%%;}\n\n            seq0=\"${vals:+\\e[${vals}m}\"\n            printf \"  %-9s\" \"${seq0:-(default)}\"\n            printf \" ${seq0}TEXT\\e[m\"\n            printf \" \\e[${vals:+${vals+$vals;}}1mBOLD\\e[m\"\n        done\n        echo; echo\n    done\n}\n\n[ -r /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion\n\n# Change the window title of X terminals\ncase ${TERM} in\n    xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|interix|konsole*)\n        PROMPT_COMMAND='echo -ne \"\\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\\~}\\007\"'\n        ;;\n    screen*)\n        PROMPT_COMMAND='echo -ne \"\\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\\~}\\033\\\\\"'\n        ;;\nesac\n\nuse_color=true\n\n# Set colorful PS1 only on colorful terminals.\n# dircolors --print-database uses its own built-in database\n# instead of using /etc/DIR_COLORS.  Try to use the external file\n# first to take advantage of user additions.  Use internal bash\n# globbing instead of external grep binary.\nsafe_term=${TERM//[^[:alnum:]]/?}   # sanitize TERM\nmatch_lhs=\"\"\n[[ -f ~/.dir_colors   ]] && match_lhs=\"${match_lhs}$(<~/.dir_colors)\"\n[[ -f /etc/DIR_COLORS ]] && match_lhs=\"${match_lhs}$(</etc/DIR_COLORS)\"\n[[ -z ${match_lhs}    ]] \\\n    && type -P dircolors >/dev/null \\\n    && match_lhs=$(dircolors --print-database)\n[[ $'\\n'${match_lhs} == *$'\\n'\"TERM \"${safe_term}* ]] && use_color=true\n\nif ${use_color} ; then\n    # Enable colors for ls, etc.  Prefer ~/.dir_colors #64489\n    if type -P dircolors >/dev/null ; then\n        if [[ -f ~/.dir_colors ]] ; then\n            eval $(dircolors -b ~/.dir_colors)\n        elif [[ -f /etc/DIR_COLORS ]] ; then\n            eval $(dircolors -b /etc/DIR_COLORS)\n        fi\n    fi\n\n    if [[ ${EUID} == 0 ]] ; then\n        PS1='\\[\\033[01;31m\\][\\h\\[\\033[01;36m\\] \\W\\[\\033[01;31m\\]]\\$\\[\\033[00m\\] '\n    else\n        PS1='\\[\\033[01;32m\\][\\u@\\h\\[\\033[01;37m\\] \\W\\[\\033[01;32m\\]]\\$\\[\\033[00m\\] '\n    fi\n\n    alias ls='ls --color=auto'\n    alias grep='grep --colour=auto'\n    alias egrep='egrep --colour=auto'\n    alias fgrep='fgrep --colour=auto'\nelse\n    if [[ ${EUID} == 0 ]] ; then\n        # show root@ when we don't have colors\n        PS1='\\u@\\h \\W \\$ '\n    else\n        PS1='\\u@\\h \\w \\$ '\n    fi\nfi\n\nunset use_color safe_term match_lhs sh\n\nalias cp=\"cp -i\"                          # confirm before overwriting something\nalias df='df -h'                          # human-readable sizes\nalias free='free -m'                      # show sizes in MB\nalias np='nano -w PKGBUILD'\nalias more=less\n\nxhost +local:root > /dev/null 2>&1\n\ncomplete -cf sudo\n\n# Bash won't get SIGWINCH if another process is in the foreground.\n# Enable checkwinsize so that bash will check the terminal size when\n# it regains control.  #65623\n# http://cnswww.cns.cwru.edu/~chet/bash/FAQ (E11)\nshopt -s checkwinsize\n\nshopt -s expand_aliases\n\n# export QT_SELECT=4\n\n# Enable history appending instead of overwriting.  #139609\nshopt -s histappend\n\n#\n# # ex - archive extractor\n# # usage: ex <file>\nex ()\n{\n  if [ -f $1 ] ; then\n    case $1 in\n      *.tar.bz2)   tar xjf $1   ;;\n      *.tar.gz)    tar xzf $1   ;;\n      *.bz2)       bunzip2 $1   ;;\n      *.rar)       unrar x $1     ;;\n      *.gz)        gunzip $1    ;;\n      *.tar)       tar xf $1    ;;\n      *.tbz2)      tar xjf $1   ;;\n      *.tgz)       tar xzf $1   ;;\n      *.zip)       unzip $1     ;;\n      *.Z)         uncompress $1;;\n      *.7z)        7z x $1      ;;\n      *)           echo \"'$1' cannot be extracted via ex()\" ;;\n    esac\n  else\n    echo \"'$1' is not a valid file\"\n  fi\n}\n\nfunction _update_ps1() {\n    PS1=$(powerline-shell $?)\n}\n\nif [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then\n    PROMPT_COMMAND=\"_update_ps1; $PROMPT_COMMAND\"\nfi\n\n# SUSPEND CTRL + S\nstty -ixon\n\n# DOTFILES ALIAS\nalias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/bare/ --work-tree=$HOME'\n",
+					"file": "/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
+					"file_size": 793,
+					"file_write_time": 132417691759299697,
+					"settings":
+					{
+						"buffer_size": 4406,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "4 2 1 \n2 1 \n4 2 1 \n[Finished in 3.85s]",
+					"settings":
+					{
+						"buffer_size": 38,
+						"line_ending": "Unix",
+						"name": "Terminal",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
+					"settings":
+					{
+						"buffer_size": 23,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-alt.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-alt.sublime-build",
+							"Run in Terminal"
+						]
+					],
+					[
+						"Packages/User/CP-build-alt.sublime-build",
+						"Run in Terminal"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-no-timeout.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-no-timeout.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-no-timeout.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/User/CP-build-system.sublime-build",
+							""
+						],
+						[
+							"Packages/User/CP-build-system.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/User/CP-build-system.sublime-build",
+						"Run"
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"color sc",
+						"UI: Select Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"toggle men",
+						"View: Toggle Menu"
+					],
+					[
+						"menu",
+						"View: Toggle Menu"
+					],
+					[
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"remove packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"format",
+						"Clang Format: Format Selection"
+					],
+					[
+						"clang",
+						"Clang Format: Format Selection"
+					],
+					[
+						"disable",
+						"Package Control: Disable Package"
+					],
+					[
+						"package install",
+						"Package Control: Install Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"enable paca",
+						"Package Control: Enable Package"
+					],
+					[
+						"package ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"package",
+						"Package Control: Add Repository"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"vim",
+						"Preferences: ActualVim Settings"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Remove Package"
+					],
+					[
+						"theme",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"them",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"sele",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"selec",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"select them",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus:",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus ke",
+						"Preferences: Terminus Key Bindings"
+					],
+					[
+						"list",
+						"Terminus: List Shells"
+					],
+					[
+						"key ",
+						"Preferences: Terminus Key Bindings"
+					],
+					[
+						"oackage insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pa",
+						"Package Control: Remove Package"
+					],
+					[
+						"terminus",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"install pa",
+						"Package Control: Install Package"
+					],
+					[
+						"",
+						"Arithmetic"
+					],
+					[
+						"package rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"package ins",
+						"Package Control: Install Package"
+					],
+					[
+						"the",
+						"Themr: List themes"
+					],
+					[
+						"color ",
+						"UI: Select Color Scheme"
+					],
+					[
+						"package inst",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"package insa",
+						"Package Control: Install Package"
+					],
+					[
+						"snippet main",
+						"Snippet: main()"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"remove package",
+						"Package Control: Remove Package"
+					],
+					[
+						"package insta",
+						"Package Control: Install Package"
+					],
+					[
+						"resour",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"terminus theme",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"terminus u",
+						"Terminus Utilities: Select Theme"
+					],
+					[
+						"package remp",
+						"Package Control: Remove Package"
+					],
+					[
+						"package insat",
+						"Package Control: Install Package"
+					],
+					[
+						"term",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"package dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"resours",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"open de",
+						"Terminus: Open Default Shell in Panel"
+					],
+					[
+						"package resou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"package re",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"termin",
+						"Terminus: Open Default Shell in Tab (View)"
+					],
+					[
+						"package Control ",
+						"Package Control: Remove Package"
+					],
+					[
+						"package resource",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"packageresou",
+						"PackageResourceViewer: Open Resource"
+					],
+					[
+						"packagereso",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 345.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/purhank/Desktop/Coding Library",
+				"/home/purhank/Desktop/Coding Library/Ongoing"
+			],
+			"file_history":
+			[
+				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-2.xml",
+				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-3.xml",
+				"/home/purhank/Desktop/Coding Library/Ongoing/f.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/h.cpp",
+				"/home/purhank/.config/awesome/widget/wifi/init.lua",
+				"/home/purhank/Desktop/Coding Library/Ongoing/d.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/c.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/b.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/c.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
+				"/home/purhan/Desktop/Coding Library/notes.txt",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/b.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhan/Desktop/template.cpp",
+				"/home/purhan/Desktop/Coding Library/.gitignore",
+				"/home/purhan/Desktop/Coding Library/Ongoing/apartments.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/dice_combinations.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/distinct_numbers.cpp",
+				"/home/purhan/Desktop/Coding Library/IDE/vim/.vimrc",
+				"/home/purhan/Desktop/a.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/output.txt",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/CP-build-system.sublime-build",
+				"/home/purhan/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/h.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/d.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/input.txt",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/template.sublime-snippet",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/coin_combinations_ii.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/coin_combinations_i.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/minimizing_coins.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/two_knights.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/permutations.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/number_spiral.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/repetitions.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/increasing_array.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/missing_number.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/CSES/weird_algorithm.cpp",
+				"/home/purhan/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+				"/tmp/kite_tutorial.py",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/s.sh",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/brute_output.txt",
+				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/original",
+				"/home/purhan/Desktop/Coding Library/IDE/template.cpp",
+				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/cp-template.sublime-snippet",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/EVENTUAL.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/ORTHODOX.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/COOK120B/BOJACK.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/k.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/DRGNDEN.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CHFNSWPS.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/DRCHEF.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CRDGAME.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/PTMSSNG.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/brute.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/brute.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/solution.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/s.sh",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/testcase_generator.cpp",
+				"/home/purhan/Desktop/Coding Library/Solution_Tester/subject.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/gen.cpp",
+				"/home/purhan/Desktop/CP trashcan/Stress-Testing-bash-script/brute_output.txt",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/source.cpp",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/source0.cpp",
+				"/home/purhan/Desktop/CP trashcan/Codeforces-HackAssistant/usable/compare.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Other Classic Problems/Binary Search.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/1373C.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/450A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/kaush_orz/1369A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/1187B.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/1265B.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/43B.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/755A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/1341A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/500A.cpp",
+				"/home/purhan/Desktop/CP trashcan/cf-fisher/purhan/445A.cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/112/A[ Petya and Strings ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/344/B[ Simple Molecules ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/347/B[ Fixed Points ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/4/A[ Watermelon ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/447/A[ DZY Loves Hash ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/43/B[ Letter ].cpp",
+				"/home/purhan/Desktop/CP trashcan/CodeForces-Code-Downloader/purhan/41/A[ Translation ].cpp",
+				"/home/purhan/Desktop/CP trashcan/parser.py",
+				"/home/purhan/Desktop/CP trashcan/CodeRetriever/codeforces/purhan/downloaded",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/ADAKING.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JULY20B/CHEFSTR1.cpp",
+				"/home/purhan/Desktop/temp.py",
+				"/home/purhan/Desktop/Coding Library/Ongoing/j.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Dynamic Programming/1D Max Sum (Kadane).cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Dynamic Programming/1D Max Sum (Kanade).cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/input.txt",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/LTIME85B/INCRDEC.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/LTIME85B/CHFMOT18.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/GUESSG(partial).cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/EVENM.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/XYSTR.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/EOEO.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/CHFICRM.cpp",
+				"/home/purhan/Desktop/Coding Library/Submissions/Codechef/JUNE20B/PRICECON.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Competitive-Programming-master/Number Theory/power.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Competitive-Programming-master/Number Theory/Fibonancci.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Greedy/nMeetings.cpp",
+				"/home/purhan/Desktop/Coding Library/Data Structures/Heap/heap.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/b.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/a.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/output.txt",
+				"/home/purhan/Desktop/Coding Library/codechef_july.cpp",
+				"/home/purhan/Downloads/DRCHEF.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/g.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/k.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/j.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/h.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/e.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/f.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/d.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/c.cpp",
+				"/home/purhan/Desktop/Coding Library/Tests/i.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/Sieve of Eratosthenes.cpp",
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp",
+				"/home/purhan/Desktop/DSA-templates/Tests/b.cpp"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 109.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"rounded_top_right=\"1",
+					"rounded_top_left=\"1",
+					"rounded_top_left=\"",
+					"rounded_top_right=\"1",
+					"rounded_top_left=\"1",
+					"rounded_top_left=\"tr",
+					"p",
+					"y",
+					"x",
+					"int",
+					"dp",
+					"];\n",
+					"cal",
+					"#include <bits/stdc++.h>\nusing namespace std;\n#define fo(int, i, a, b)        for (int i=a; i<(b); i++)\n#define forev(int, i, b, a)     for (int i = (b)-1; i >= a; i--)\n#define uns                     unsigned\n#define lli                     long long int\n#define ld                      long double\n#define all(x)                  x.begin(), x.end()\n#define sortall(x)              sort(all(x))\n#define enl                     \"\\n\"\n#define dbg(x)                  cout << #x << \": \" << x << enl;\n// #define PI 3.1415926535897932384626\n// const int MOD = 1000000007; const lli INF = 1e18; const int MX = 100001;\n\nvector<lli> a;\nvector<vector<lli>> dp(1001, vector<lli>(1001, 0));\n\nlli cal(lli lo, lli hi, lli k) {\n    vector<lli> hash(101, 0);\n    lli res = k;\n    if (lo == hi) return k;\n    fo (lli, i, lo, hi + 1) hash[a[i]] += 1;\n    fo (lli, i, 0, 101) {\n        if (hash[i] > 1) res += hash[i];\n    }\n    return res;\n}\n\nlli solve(lli lo, lli hi, lli k) {\n    lli miin = INT_MAX;\n    if (lo == hi) return k;\n    else if (lo > hi) return 0;\n    else {\n        // if (dp[lo][hi] != 0) return dp[lo][hi];\n\n        fo (lli, i, lo, hi + 1) {\n            miin = min(miin, cal(lo, i, k) + solve(i + 1, hi, k));\n        }\n    }\n    return miin;\n}\n\nvoid io() {\n    lli n, k; cin >> n >> k;\n    a.reserve(n);\n    fo (lli, i, 0, n) cin >> a[i];\n    lli ans = solve(0, n - 1,  k);\n    cout << ans << enl;\n}\n\nint main() {\n    ios_base::sync_with_stdio(0); cin.tie(0);\n    int testcase; cin >> testcase; for (int i = 1; i <= testcase; ++i) {\n        a.clear(); dp.assign(1001, vector<lli>(1001, 0));\n        io();\n    }\n    return 0;\n}",
+					"dp",
+					"fam",
+					"cal",
+					"int",
+					"INT",
+					"int",
+					"solve2",
+					"fun",
+					"final_ans",
+					"end",
+					"start",
+					"final_ans",
+					"end",
+					"start",
+					"dp",
+					"fin_ans",
+					"long long int",
+					"long long ",
+					"k2",
+					"k1",
+					"temp",
+					"lastprintedIdx",
+					"freq",
+					"freqS",
+					"int"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/purhank/Desktop/Coding Library"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4406,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4406,
+										4406
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/C++/C++.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2001.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 38,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"__vi_external_disable": true,
+									"auto_complete": false,
+									"auto_complete_commit_on_tab": false,
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone_locations":
+									{
+									},
+									"bracket_highlighter.ignore": true,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"color_scheme": "Terminus.hidden-color-scheme",
+									"draw_centered": false,
+									"draw_indent_guides": false,
+									"draw_unicode_white_space": false,
+									"draw_white_space": "none",
+									"gutter": false,
+									"highlight_line": false,
+									"is_widget": true,
+									"result_base_dir": "/home/purhank/Desktop/Coding Library/Ongoing",
+									"result_file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+									"result_line_regex": null,
+									"rulers":
+									[
+										500
+									],
+									"scroll_past_end": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"terminus.highlight_counter": 3,
+									"terminus_view": true,
+									"terminus_view.args":
+									{
+										"auto_close": false,
+										"cancellable": false,
+										"cmd":
+										[
+											"bash",
+											"-c",
+											"g++ -std=c++17 -Wall -Wextra -Wshadow -fsanitize=undefined '/home/purhank/Desktop/Coding Library/Ongoing/e.cpp' -o '/home/purhank/Desktop/Coding Library/Ongoing/compiled'.o && tput setaf 2 && timeout 5s '/home/purhank/Desktop/Coding Library/Ongoing/compiled.o' < input.txt"
+										],
+										"config_name": "Login Shell",
+										"cwd": "/home/purhank/Desktop/Coding Library/Ongoing",
+										"env":
+										{
+											"LANG": "en_IN",
+											"TERM": "linux",
+											"TERMINUS_SUBLIME": "1",
+											"TERM_PROGRAM": "Terminus-Sublime"
+										},
+										"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+										"line_regex": null,
+										"panel_name": null,
+										"tag": null,
+										"timeit": true,
+										"title": "Terminal"
+									},
+									"terminus_view.cancellable": false,
+									"terminus_view.closed": true,
+									"terminus_view.key.ctrl+k": true,
+									"terminus_view.key.ctrl+p": true,
+									"terminus_view.natural_keyboard": true,
+									"terminus_view.panel_name": null,
+									"terminus_view.tag": null,
+									"terminus_view.viewport_y": 1.0,
+									"word_wrap": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 2,
+							"file": "/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 23,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										23,
+										23
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 49.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						2
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.686168288597,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.5,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.Terminus":
+			{
+				"height": 121.0
+			},
+			"output.Terminus Build Results":
+			{
+				"height": 136.0
+			},
+			"output.astyle_error_message":
+			{
+				"height": 133.0
+			},
+			"output.exec":
+			{
+				"height": 32.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/CP-build-system.sublime-build",
+			"position": "0,0,0,0,0,56,40,1358,760,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"bina",
+						"Algorithms/Other Classic Problems/Binary Search.cpp"
+					],
+					[
+						"kada",
+						"Algorithms/Dynamic Programming/1D Max Sum (Kadane).cpp"
+					],
+					[
+						"sieve",
+						"Algorithms/Math/Sieve of Eratosthenes.cpp"
+					],
+					[
+						"isp",
+						"Algorithms/Math/isPrime.cpp"
+					],
+					[
+						"sie",
+						"Algorithms/Math/Sieve of Eratosthenes.cpp"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 356.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+				"max_columns": 2
+			},
+			"window_id": 91,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
