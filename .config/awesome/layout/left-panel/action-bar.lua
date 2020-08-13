@@ -22,9 +22,9 @@ return function(screen, panel, action_bar_width)
     start_sunday = false,
     week_numbers = true
   })
-  month_calendar:attach(textclock)
+--   month_calendar:attach(textclock)
 
-  local clock_widget = wibox.container.margin(textclock, dpi(13), dpi(13), dpi(8), dpi(8))
+  local clock_widget = wibox.container.margin(textclock, dpi(16), dpi(16), dpi(0), dpi(6))
   local systray = wibox.widget.systray()
   systray:set_horizontal(false)
   systray:set_base_size(32)
@@ -94,7 +94,7 @@ return function(screen, panel, action_bar_width)
       --require('widget.wifi'),
       require('widget.battery'),
       -- Clock
-      --clock_widget
+      clock_widget
     }
   }
 end

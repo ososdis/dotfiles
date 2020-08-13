@@ -169,7 +169,11 @@ local globalKeys =
   ),
   awful.key({modkey, 'Control'}, 'r', _G.awesome.restart, {description = 'reload awesome', group = 'awesome'}),
   awful.key({modkey, 'Control'}, 'q', _G.awesome.quit, {description = 'quit awesome', group = 'awesome'}),
-  awful.key({modkey, 'Shift'}, 'p', function() poweroff_command() end, {description = 'shutdown system', group = 'awesome'}),
+  awful.key({modkey, 'Shift'}, 'p', 
+            function() 
+                _G.exit_screen_show() 
+            end, 
+  {description = 'end session menu', group = 'awesome'}),
   awful.key(
     {altkey, 'Shift'},
     'Right',
