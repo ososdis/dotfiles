@@ -23,8 +23,8 @@ local function renderClient(client, mode)
       gears.shape.rectangle(cr, w, h)
     end
   elseif client.rendering_mode == 'tiled' then
---     client.border_width = beautiful.border_width
-      client.border_width = 2
+--      client.border_width = beautiful.border_width
+      client.border_width = 4
     client.shape = function(cr, w, h)
       gears.shape.rectangle(cr, w, h)
     end

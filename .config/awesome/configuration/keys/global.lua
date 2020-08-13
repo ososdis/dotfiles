@@ -49,6 +49,25 @@ local globalKeys =
     {description = 'show main menu', group = 'awesome'}
   ),
   awful.key(
+    {modkey},
+    'd',
+    function()
+      local flag = false
+      for _, c in ipairs(mouse.screen.selected_tag:clients()) do
+                 if c.minimized == true then
+                   flag = true
+                 end
+                 c.minimized = true
+      end
+      for _, c in ipairs(mouse.screen.selected_tag:clients()) do
+                 if flag == true then
+                   c.minimized = false
+                 end
+      end
+    end,
+    {description = 'minimize all clients', group = 'awesome'}
+  ),
+  awful.key(
     {altkey},
     'space',
     function()
