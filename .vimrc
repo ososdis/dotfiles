@@ -44,8 +44,8 @@ map <C-z> <Esc>u
 map <C-y> <Esc><C-r>i
 map <C-a> ggVG
 map <C-c> "+y
-imap <silent><C-s> <Esc>:w<Enter>
-map <silent><C-s> <Esc>:w<Enter>
+imap <silent><C-s> <Esc>:w<CR>
+map <silent><C-s> <Esc>:w<CR>
 map <silent><C-w> <C-C>:bd<CR>
 map <silent><C-Q> <C-C>:q!<CR>
 map <silent><C-O> <Esc>:tabnew#<CR>
@@ -100,6 +100,7 @@ let g:NERDTreeWinPos = "right"
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 nnoremap <C-H> :bprevious<CR>
 nnoremap <C-L>   :bnext<CR>
 nmap <C-e> :NERDTreeToggle<CR>

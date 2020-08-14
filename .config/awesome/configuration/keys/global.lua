@@ -161,7 +161,7 @@ local globalKeys =
   -- Standard program
   awful.key(
     {modkey},
-    'x',
+    't',
     function()
       awful.util.spawn_with_shell(apps.default.terminal)
     end,
@@ -373,7 +373,7 @@ local globalKeys =
   -- Open default program for tag
   awful.key(
     {modkey},
-    't',
+    'n',
     function()
       awful.spawn(
           awful.screen.focused().selected_tag.defaultApp,
