@@ -2,6 +2,7 @@ local awful = require('awful')
 local beautiful = require('beautiful')
 local wibox = require('wibox')
 local TaskList = require('widget.task-list')
+local TagList = require('widget.tag-list')
 local gears = require('gears')
 local clickable_container = require('widget.material.clickable-container')
 local mat_icon_button = require('widget.material.icon-button')
@@ -28,6 +29,10 @@ month_calendar:attach(textclock)
 
 local clock_widget = wibox.container.margin(textclock, dpi(13), dpi(13), dpi(8), dpi(8))
 
+local systray = wibox.widget.systray()
+systray:set_horizontal(true)
+systray:set_base_size(32)
+
 local add_button = mat_icon_button(mat_icon(icons.plus, dpi(24)))
 add_button:buttons(
   gears.table.join(
@@ -48,59 +53,21 @@ add_button:buttons(
   )
 )
 
--- Create an imagebox widget which will contains an icon indicating which layout we're using.
--- We need one layoutbox per screen.
-local LayoutBox = function(s)
-  local layoutBox = clickable_container(awful.widget.layoutbox(s))
-  layoutBox:buttons(
-    awful.util.table.join(
-      awful.button(
-        {},
-        1,
-        function()
-          awful.layout.inc(1)
-        end
-      ),
-      awful.button(
-        {},
-        3,
-        function()
-          awful.layout.inc(-1)
-        end
-      ),
-      awful.button(
-        {},
-        4,
-        function()
-          awful.layout.inc(1)
-        end
-      ),
-      awful.button(
-        {},
-        5,
-        function()
-          awful.layout.inc(-1)
-        end
-      )
-    )
-  )
-  return layoutBox
-end
-
 local TopPanel = function(s, offset)
   local offsetx = 0
   if offset == true then
-    offsetx = dpi(48)
+    offsetx = dpi(128)
+    offsety = dpi(12)
   end
   local panel =
     wibox(
     {
-      ontop = true,
+      ontop = false,
       screen = s,
       height = dpi(32),
-      width = s.geometry.width - offsetx,
-      x = s.geometry.x + offsetx,
-      y = s.geometry.y,
+      width = dpi(128),
+      x = s.geometry.width - dpi(316),
+      y = s.geometry.y  + offsety,
       stretch = false,
       bg = beautiful.background.hue_800,
       fg = beautiful.fg_normal,
@@ -112,26 +79,15 @@ local TopPanel = function(s, offset)
 
   panel:struts(
     {
-      top = dpi(32)
+      top = dpi(44)
     }
   )
 
   panel:setup {
-    layout = wibox.layout.align.horizontal,
-    {
-      layout = wibox.layout.fixed.horizontal,
-      -- Create a taglist widget
-      TaskList(s),
-      add_button
-    },
-    nil,
-    {
-      layout = wibox.layout.fixed.horizontal,
-      -- Clock
-      clock_widget,
-      -- Layout box
-      LayoutBox(s)
-    }
+      layout = wibox.layout.align.horizontal,
+	  wibox.container.margin(systray, dpi(4), dpi(4), dpi(4), dpi(4)),
+	  nil,
+	  require('widget.battery'),
   }
 
   return panel

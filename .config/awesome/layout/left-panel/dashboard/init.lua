@@ -76,8 +76,8 @@ return function(_, panel)
       },
       wibox.widget {
         orientation = 'horizontal',
-        forced_height = 1,
-        opacity = 0.08,
+        forced_height = 0.8,
+        opacity = 0.3,
         widget = wibox.widget.separator
       },
       require('layout.left-panel.dashboard.quick-settings'),

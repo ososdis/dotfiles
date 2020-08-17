@@ -76,11 +76,11 @@ local awesome_overrides =
         theme.accent.hue_500 ..
           ':0.08,' .. theme.accent.hue_500 .. ':0.08,' .. theme.background.hue_800 .. ':1,' .. theme.background.hue_800
   theme.taglist_bg_focus =
-    'linear:0,0:' ..
-    dpi(42) ..
-      ',0:0,' ..
-        theme.primary.hue_500 ..
-          ':0.08,' .. theme.primary.hue_500 .. ':0.08,' .. theme.background.hue_800 .. ':1,' .. theme.background.hue_800
+    'linear:0,0:0,' ..
+    dpi(32) ..
+      ':0,' ..
+        theme.background.hue_800 ..
+          ':0.9,' .. theme.background.hue_800 .. ':0.9,' .. theme.primary.hue_500 .. ':1,' .. theme.primary.hue_500
 
   -- Tasklist
 

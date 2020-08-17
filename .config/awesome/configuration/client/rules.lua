@@ -5,6 +5,10 @@ local client_buttons = require('configuration.client.buttons')
 
 -- Rules
 awful.rules.rules = {
+  {
+    rule_any = {name = {'Konsole'}},
+    properties = {skip_decoration = true}
+  },
   -- All clients will match this rule.
   {
     rule = {},
@@ -24,10 +28,6 @@ awful.rules.rules = {
       maximized_horizontal = false,
       maximized_vertical = false
     }
-  },
-  {
-    rule_any = {name = {'Konsole'}},
-    properties = {skip_decoration = true}
   },
   -- Titlebars
   {

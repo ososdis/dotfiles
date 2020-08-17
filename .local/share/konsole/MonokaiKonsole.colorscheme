@@ -89,7 +89,7 @@ Color=187,187,187
 Color=255,84,78
 
 [General]
-Blur=true
+Blur=false
 ColorRandomization=false
 Description=MonokaiKonsole
 Opacity=0.7

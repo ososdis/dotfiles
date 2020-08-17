@@ -1,3 +1,6 @@
+[Desktop Entry]
+DefaultProfile=Profile 2.profile
+
 [Favorite Profiles]
 Favorites=Breath2.profile
 
@@ -7,7 +10,7 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAoMAAAFYAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAABRYAAAK3AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 
 [Notification Messages]

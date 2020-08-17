@@ -5,17 +5,17 @@ local apps = require('configuration.apps')
 local dpi = require('beautiful').xresources.apply_dpi
 
 local left_panel = function(screen)
-  local action_bar_width = dpi(48)
+  local action_bar_width = dpi(32)
   local panel_content_width = dpi(400)
 
   local panel =
     wibox {
     screen = screen,
-    width = action_bar_width,
-    height = screen.geometry.height,
-    x = screen.geometry.x,
-    y = screen.geometry.y,
-    ontop = true,
+    width = dpi(32),
+    height = dpi(32),
+    x = screen.geometry.x + 12,
+    y = screen.geometry.y + 12,
+    ontop = false,
     bg = beautiful.background.hue_800,
     fg = beautiful.fg_normal
   }
@@ -24,7 +24,7 @@ local left_panel = function(screen)
 
   panel:struts(
     {
-      left = action_bar_width
+      left = dpi(0)
     }
   )
 
@@ -54,10 +54,14 @@ local left_panel = function(screen)
   end
 
   local openPanel = function(should_run_rofi)
-    panel.width = action_bar_width + panel_content_width
+    panel.width = panel_content_width
+    panel.height = screen.geometry.height
     backdrop.visible = true
     panel.visible = false
     panel.visible = true
+    panel.x = screen.geometry.x
+    panel.y = screen.geometry.y
+    panel.ontop = true
     panel:get_children_by_id('panel_content')[1].visible = true
     if should_run_rofi then
       panel:run_rofi()
@@ -67,8 +71,12 @@ local left_panel = function(screen)
 
   local closePanel = function()
     panel.width = action_bar_width
+    panel.height = dpi(32)
     panel:get_children_by_id('panel_content')[1].visible = false
     backdrop.visible = false
+    panel.ontop = false
+    panel.x = screen.geometry.x + 12
+    panel.y = screen.geometry.y + 12
     panel:emit_signal('closed')
   end
 
@@ -94,8 +102,8 @@ local left_panel = function(screen)
   )
 
   panel:setup {
-    layout = wibox.layout.align.horizontal,
-    nil,
+    require('layout.left-panel.action-bar')(screen, panel, action_bar_width),
+    layout = wibox.layout.align.vertical,
     {
       id = 'panel_content',
       bg = beautiful.background.hue_900,
@@ -107,7 +115,6 @@ local left_panel = function(screen)
         layout = wibox.layout.stack
       }
     },
-    require('layout.left-panel.action-bar')(screen, panel, action_bar_width)
   }
   return panel
 end

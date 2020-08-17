@@ -16,7 +16,6 @@ APPS=(
     radeon-profile
     $HOME/.config/awesomestart
     )
-
 # Some applications start child applications that need to be killed on reload
 KILL=(
     synergyc

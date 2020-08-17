@@ -2,7 +2,6 @@
 update_info=spectacle_newConfig.upd:spectacle-new-config
 
 [GuiConfig]
-cropRegion=93,485,717,106
 window-position=50,0
 
 [Save]

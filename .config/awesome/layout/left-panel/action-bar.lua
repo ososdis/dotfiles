@@ -26,14 +26,14 @@ return function(screen, panel, action_bar_width)
 
   local clock_widget = wibox.container.margin(textclock, dpi(16), dpi(16), dpi(0), dpi(6))
   local systray = wibox.widget.systray()
-  systray:set_horizontal(false)
-  systray:set_base_size(32)
+  systray:set_horizontal(true)
+  systray:set_base_size(24)
 
   local menu_icon =
     wibox.widget {
     icon = icons.menu,
-    size = dpi(32),
-    widget = mat_icon
+    size = dpi(24),
+    widget = mat_icon,
   }
 
   local home_button =
@@ -42,6 +42,7 @@ return function(screen, panel, action_bar_width)
       menu_icon,
       widget = clickable_container
     },
+    visible = true,
     bg = beautiful.primary.hue_500,
     widget = wibox.container.background
   }
@@ -63,6 +64,7 @@ return function(screen, panel, action_bar_width)
     'opened',
     function()
       menu_icon.icon = icons.close
+      home_button.visible = false
     end
   )
 
@@ -70,31 +72,17 @@ return function(screen, panel, action_bar_width)
     'closed',
     function()
       menu_icon.icon = icons.menu
+      home_button.visible = true
     end
   )
 
   return wibox.widget {
     id = 'action_bar',
-    layout = wibox.layout.align.vertical,
+    layout = wibox.layout.align.horizontal,
     forced_width = action_bar_width,
     {
-      -- Left widgets
-      layout = wibox.layout.fixed.vertical,
+      layout = wibox.layout.fixed.horizontal,
       home_button,
-      -- Create a taglist widget
-      TagList(screen)
-    },
-    --s.mytasklist, -- Middle widget
-    nil,
-    {
-      -- Right widgets
-      layout = wibox.layout.fixed.vertical,
-      wibox.container.margin(systray, dpi(10), dpi(10)),
-      --require('widget.package-updater'),
-      --require('widget.wifi'),
-      require('widget.battery'),
-      -- Clock
-      clock_widget
     }
   }
 end

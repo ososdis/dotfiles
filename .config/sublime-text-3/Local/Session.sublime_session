@@ -1,19 +1,19 @@
 {
 	"folder_history":
 	[
-		"/home/purhank/Desktop/Coding Library",
 		"/home/purhan/Desktop/Coding Library",
+		"/home/purhank/Desktop/Coding Library",
 		"/home/purhan/Desktop/DSA-templates",
 		"/home/purhan/Desktop/DSA-templates/Tests",
 		"/home/purhan/Desktop/Algorithmic Toolbox Material/Submissions",
 		"/home/purhan/Desktop/DSA-templates/Test"
 	],
 	"last_version": 3211,
-	"last_window_id": 98,
+	"last_window_id": 100,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 708.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -289,6 +289,22 @@
 				"selected_items":
 				[
 					[
+						"color sc",
+						"UI: Select Color Scheme"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
 						"toggle men",
 						"View: Toggle Menu"
 					],
@@ -303,10 +319,6 @@
 					[
 						"enable",
 						"Package Control: Enable Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"remove packa",
@@ -401,10 +413,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"color",
-						"UI: Select Color Scheme"
-					],
-					[
 						"remove pa",
 						"Package Control: Remove Package"
 					],
@@ -425,10 +433,6 @@
 						"Arithmetic"
 					],
 					[
-						"color sche",
-						"UI: Select Color Scheme"
-					],
-					[
 						"package rem",
 						"Package Control: Remove Package"
 					],
@@ -447,10 +451,6 @@
 					[
 						"package inst",
 						"Package Control: Install Package"
-					],
-					[
-						"color sc",
-						"UI: Select Color Scheme"
 					],
 					[
 						"install ",
@@ -577,12 +577,17 @@
 			},
 			"file_history":
 			[
-				"/home/purhank/Desktop/Coding Library/Ongoing/f.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
 				"/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-2.xml",
+				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-3.xml",
+				"/home/purhank/Desktop/Coding Library/Ongoing/f.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/h.cpp",
+				"/home/purhank/.config/awesome/widget/wifi/init.lua",
 				"/home/purhank/Desktop/Coding Library/Ongoing/d.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/c.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/b.cpp",
-				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
@@ -699,16 +704,11 @@
 				"/home/purhan/Desktop/Coding Library/Tests/c.cpp",
 				"/home/purhan/Desktop/Coding Library/Tests/i.cpp",
 				"/home/purhan/Desktop/Coding Library/Algorithms/Math/Sieve of Eratosthenes.cpp",
-				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp",
-				"/home/purhan/Desktop/DSA-templates/Tests/b.cpp",
-				"/home/purhan/Desktop/DSA-templates/Tests/a.cpp",
-				"/home/purhan/Desktop/Coursera/Algorithms on Graphs/week2_decomposition2/2_toposort/toposort.cpp",
-				"/home/purhan/Desktop/Coursera/Algorithms on Graphs/week2_decomposition2/1_acyclicity/acyclicity.cpp",
-				"/home/purhan/Desktop/DSA-templates/Tests/i.cpp"
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -722,6 +722,37 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"rounded_top_right=\"1",
+					"rounded_top_left=\"1",
+					"rounded_top_left=\"",
+					"rounded_top_right=\"1",
+					"rounded_top_left=\"1",
+					"rounded_top_left=\"tr",
+					"p",
+					"y",
+					"x",
+					"int",
+					"dp",
+					"];\n",
+					"cal",
+					"#include <bits/stdc++.h>\nusing namespace std;\n#define fo(int, i, a, b)        for (int i=a; i<(b); i++)\n#define forev(int, i, b, a)     for (int i = (b)-1; i >= a; i--)\n#define uns                     unsigned\n#define lli                     long long int\n#define ld                      long double\n#define all(x)                  x.begin(), x.end()\n#define sortall(x)              sort(all(x))\n#define enl                     \"\\n\"\n#define dbg(x)                  cout << #x << \": \" << x << enl;\n// #define PI 3.1415926535897932384626\n// const int MOD = 1000000007; const lli INF = 1e18; const int MX = 100001;\n\nvector<lli> a;\nvector<vector<lli>> dp(1001, vector<lli>(1001, 0));\n\nlli cal(lli lo, lli hi, lli k) {\n    vector<lli> hash(101, 0);\n    lli res = k;\n    if (lo == hi) return k;\n    fo (lli, i, lo, hi + 1) hash[a[i]] += 1;\n    fo (lli, i, 0, 101) {\n        if (hash[i] > 1) res += hash[i];\n    }\n    return res;\n}\n\nlli solve(lli lo, lli hi, lli k) {\n    lli miin = INT_MAX;\n    if (lo == hi) return k;\n    else if (lo > hi) return 0;\n    else {\n        // if (dp[lo][hi] != 0) return dp[lo][hi];\n\n        fo (lli, i, lo, hi + 1) {\n            miin = min(miin, cal(lo, i, k) + solve(i + 1, hi, k));\n        }\n    }\n    return miin;\n}\n\nvoid io() {\n    lli n, k; cin >> n >> k;\n    a.reserve(n);\n    fo (lli, i, 0, n) cin >> a[i];\n    lli ans = solve(0, n - 1,  k);\n    cout << ans << enl;\n}\n\nint main() {\n    ios_base::sync_with_stdio(0); cin.tie(0);\n    int testcase; cin >> testcase; for (int i = 1; i <= testcase; ++i) {\n        a.clear(); dp.assign(1001, vector<lli>(1001, 0));\n        io();\n    }\n    return 0;\n}",
+					"dp",
+					"fam",
+					"cal",
+					"int",
+					"INT",
+					"int",
+					"solve2",
+					"fun",
+					"final_ans",
+					"end",
+					"start",
+					"final_ans",
+					"end",
+					"start",
+					"dp",
+					"fin_ans",
+					"long long int",
 					"long long ",
 					"k2",
 					"k1",
@@ -837,7 +868,7 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 356.0,
 			"status_bar_visible": true,
 			"template_settings":
@@ -845,7 +876,7 @@
 				"max_columns": 2
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 1350.0
 	},
 	"windows":
 	[
@@ -1019,16 +1050,16 @@
 			"buffers":
 			[
 				{
-					"file": "/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+					"file": "/home/purhan/Desktop/Coding Library/Ongoing/a.cpp",
 					"settings":
 					{
-						"buffer_size": 793,
+						"buffer_size": 2786,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"contents": "4 2 1 \n2 1 \n4 2 1 \n[Finished in 3.85s]",
+					"contents": "0 6 1 \n2 1 \n3 4 0 \n[Finished in 3.70s]",
 					"settings":
 					{
 						"buffer_size": 38,
@@ -1038,7 +1069,7 @@
 					}
 				},
 				{
-					"file": "/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
+					"file": "/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
 					"settings":
 					{
 						"buffer_size": 23,
@@ -1155,12 +1186,16 @@
 				"selected_items":
 				[
 					[
-						"color sc",
-						"UI: Select Color Scheme"
-					],
-					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"color sc",
+						"UI: Select Color Scheme"
 					],
 					[
 						"color",
@@ -1285,10 +1320,6 @@
 					[
 						"terminus",
 						"Terminus: Open Default Shell in Tab (View)"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
 					],
 					[
 						"install pa",
@@ -1443,11 +1474,17 @@
 			},
 			"expanded_folders":
 			[
-				"/home/purhank/Desktop/Coding Library",
-				"/home/purhank/Desktop/Coding Library/Ongoing"
+				"/home/purhan/Desktop/Coding Library",
+				"/home/purhan/Desktop/Coding Library/Ongoing"
 			],
 			"file_history":
 			[
+				"/home/purhan/Desktop/Coding Library/Ongoing/c.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/d.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/e.cpp",
+				"/home/purhan/Desktop/Coding Library/Ongoing/output.txt",
+				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+				"/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
 				"/home/purhank/Desktop/Coding Library/Ongoing/e.cpp",
 				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-2.xml",
 				"/home/purhank/.themes/Numix-dark/metacity-1/metacity-theme-3.xml",
@@ -1457,11 +1494,9 @@
 				"/home/purhank/Desktop/Coding Library/Ongoing/d.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/c.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/b.cpp",
-				"/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/testcase_generator.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/subject.cpp",
 				"/home/purhank/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
-				"/home/purhan/Desktop/Coding Library/Ongoing/c.cpp",
 				"/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
 				"/home/purhan/Desktop/Coding Library/notes.txt",
 				"/home/purhan/Desktop/Coding Library/Ongoing/Solution_Tester/brute.cpp",
@@ -1476,11 +1511,8 @@
 				"/home/purhan/Desktop/Coding Library/Submissions/CSES/distinct_numbers.cpp",
 				"/home/purhan/Desktop/Coding Library/IDE/vim/.vimrc",
 				"/home/purhan/Desktop/a.cpp",
-				"/home/purhan/Desktop/Coding Library/Ongoing/output.txt",
 				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/CP-build-system.sublime-build",
-				"/home/purhan/Desktop/Coding Library/Ongoing/e.cpp",
 				"/home/purhan/Desktop/Coding Library/Ongoing/h.cpp",
-				"/home/purhan/Desktop/Coding Library/Ongoing/d.cpp",
 				"/home/purhan/Desktop/Coding Library/Submissions/CSES/input.txt",
 				"/home/purhan/Desktop/Coding Library/IDE/sublime-text/template.sublime-snippet",
 				"/home/purhan/Desktop/Coding Library/Submissions/CSES/coin_combinations_ii.cpp",
@@ -1574,12 +1606,11 @@
 				"/home/purhan/Desktop/Coding Library/Tests/c.cpp",
 				"/home/purhan/Desktop/Coding Library/Tests/i.cpp",
 				"/home/purhan/Desktop/Coding Library/Algorithms/Math/Sieve of Eratosthenes.cpp",
-				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp",
-				"/home/purhan/Desktop/DSA-templates/Tests/b.cpp"
+				"/home/purhan/Desktop/Coding Library/Algorithms/Math/isPrime.cpp"
 			],
 			"find":
 			{
-				"height": 26.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -1590,48 +1621,31 @@
 			},
 			"find_state":
 			{
-				"case_sensitive": false,
+				"case_sensitive": true,
 				"find_history":
 				[
-					"rounded_top_right=\"1",
-					"rounded_top_left=\"1",
-					"rounded_top_left=\"",
-					"rounded_top_right=\"1",
-					"rounded_top_left=\"1",
-					"rounded_top_left=\"tr",
-					"p",
-					"y",
+					"500005",
+					"ans ",
+					"res",
+					"mul",
+					"cm",
 					"x",
-					"int",
-					"dp",
-					"];\n",
-					"cal",
-					"#include <bits/stdc++.h>\nusing namespace std;\n#define fo(int, i, a, b)        for (int i=a; i<(b); i++)\n#define forev(int, i, b, a)     for (int i = (b)-1; i >= a; i--)\n#define uns                     unsigned\n#define lli                     long long int\n#define ld                      long double\n#define all(x)                  x.begin(), x.end()\n#define sortall(x)              sort(all(x))\n#define enl                     \"\\n\"\n#define dbg(x)                  cout << #x << \": \" << x << enl;\n// #define PI 3.1415926535897932384626\n// const int MOD = 1000000007; const lli INF = 1e18; const int MX = 100001;\n\nvector<lli> a;\nvector<vector<lli>> dp(1001, vector<lli>(1001, 0));\n\nlli cal(lli lo, lli hi, lli k) {\n    vector<lli> hash(101, 0);\n    lli res = k;\n    if (lo == hi) return k;\n    fo (lli, i, lo, hi + 1) hash[a[i]] += 1;\n    fo (lli, i, 0, 101) {\n        if (hash[i] > 1) res += hash[i];\n    }\n    return res;\n}\n\nlli solve(lli lo, lli hi, lli k) {\n    lli miin = INT_MAX;\n    if (lo == hi) return k;\n    else if (lo > hi) return 0;\n    else {\n        // if (dp[lo][hi] != 0) return dp[lo][hi];\n\n        fo (lli, i, lo, hi + 1) {\n            miin = min(miin, cal(lo, i, k) + solve(i + 1, hi, k));\n        }\n    }\n    return miin;\n}\n\nvoid io() {\n    lli n, k; cin >> n >> k;\n    a.reserve(n);\n    fo (lli, i, 0, n) cin >> a[i];\n    lli ans = solve(0, n - 1,  k);\n    cout << ans << enl;\n}\n\nint main() {\n    ios_base::sync_with_stdio(0); cin.tie(0);\n    int testcase; cin >> testcase; for (int i = 1; i <= testcase; ++i) {\n        a.clear(); dp.assign(1001, vector<lli>(1001, 0));\n        io();\n    }\n    return 0;\n}",
-					"dp",
-					"fam",
-					"cal",
-					"int",
-					"INT",
-					"int",
-					"solve2",
+					"ans",
+					"mod_inv",
+					"nCr",
+					"fact",
+					"mp",
+					"ll ",
+					"v[",
+					"max_lines_rem",
 					"fun",
-					"final_ans",
-					"end",
-					"start",
-					"final_ans",
-					"end",
-					"start",
-					"dp",
-					"fin_ans",
+					"V",
+					"K",
+					"C",
+					"N",
 					"long long int",
-					"long long ",
-					"k2",
-					"k1",
-					"temp",
-					"lastprintedIdx",
-					"freq",
-					"freqS",
-					"int"
+					"in_files",
+					"#"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -1649,7 +1663,7 @@
 			"folders":
 			[
 				{
-					"path": "/home/purhank/Desktop/Coding Library"
+					"path": "/home/purhan/Desktop/Coding Library"
 				}
 			],
 			"groups":
@@ -1660,19 +1674,23 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/purhank/Desktop/Coding Library/Ongoing/a.cpp",
+							"file": "/home/purhan/Desktop/Coding Library/Ongoing/a.cpp",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 793,
+								"buffer_size": 2786,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										628,
-										628
+										626,
+										632
+									],
+									[
+										1238,
+										1232
 									]
 								],
 								"settings":
@@ -1684,24 +1702,39 @@
 										{
 											"1":
 											[
-												629,
-												630
+												632,
+												633
+											],
+											"2":
+											[
+												1243,
+												1244
 											]
 										},
 										"icon":
 										{
 											"1":
 											[
-												"Packages/BracketHighlighter/icons/curly_bracket.png",
-												"region.purplish"
+												"Packages/BracketHighlighter/icons/round_bracket.png",
+												"region.yellowish"
+											],
+											"2":
+											[
+												"Packages/BracketHighlighter/icons/round_bracket.png",
+												"region.yellowish"
 											]
 										},
 										"open":
 										{
 											"1":
 											[
-												626,
-												627
+												625,
+												626
+											],
+											"2":
+											[
+												1216,
+												1217
 											]
 										},
 										"unmatched":
@@ -1710,31 +1743,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
@@ -1755,22 +1773,37 @@
 										"bh_curly_open",
 										"bh_curly_close",
 										"bh_curly_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"syntax": "Packages/C++/C++.sublime-syntax",
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 2.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1793,10 +1826,6 @@
 								},
 								"selection":
 								[
-									[
-										0,
-										0
-									]
 								],
 								"settings":
 								{
@@ -1808,21 +1837,6 @@
 									{
 									},
 									"bracket_highlighter.ignore": true,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
 									"color_scheme": "Terminus.hidden-color-scheme",
 									"draw_centered": false,
 									"draw_indent_guides": false,
@@ -1831,7 +1845,7 @@
 									"gutter": false,
 									"highlight_line": false,
 									"is_widget": true,
-									"result_base_dir": "/home/purhank/Desktop/Coding Library/Ongoing",
+									"result_base_dir": "/home/purhan/Desktop/Coding Library/Ongoing",
 									"result_file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
 									"result_line_regex": null,
 									"rulers":
@@ -1850,13 +1864,13 @@
 										[
 											"bash",
 											"-c",
-											"g++ -std=c++17 -Wall -Wextra -Wshadow -fsanitize=undefined '/home/purhank/Desktop/Coding Library/Ongoing/e.cpp' -o '/home/purhank/Desktop/Coding Library/Ongoing/compiled'.o && tput setaf 2 && timeout 5s '/home/purhank/Desktop/Coding Library/Ongoing/compiled.o' < input.txt"
+											"g++ -std=c++17 -Wall -Wextra -Wshadow -fsanitize=undefined '/home/purhan/Desktop/Coding Library/Ongoing/a.cpp' -o '/home/purhan/Desktop/Coding Library/Ongoing/compiled'.o && tput setaf 2 && timeout 5s '/home/purhan/Desktop/Coding Library/Ongoing/compiled.o' < input.txt"
 										],
 										"config_name": "Login Shell",
-										"cwd": "/home/purhank/Desktop/Coding Library/Ongoing",
+										"cwd": "/home/purhan/Desktop/Coding Library/Ongoing",
 										"env":
 										{
-											"LANG": "en_IN",
+											"LANG": "en_US.utf8",
 											"TERM": "linux",
 											"TERMINUS_SUBLIME": "1",
 											"TERM_PROGRAM": "Terminus-Sublime"
@@ -1879,7 +1893,7 @@
 									"word_wrap": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -1893,7 +1907,7 @@
 					[
 						{
 							"buffer": 2,
-							"file": "/home/purhank/Desktop/Coding Library/Ongoing/input.txt",
+							"file": "/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
 							"semi_transient": false,
 							"settings":
 							{
@@ -1928,61 +1942,61 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
 										"bh_double_quote",
 										"bh_double_quote_center",
 										"bh_double_quote_open",
 										"bh_double_quote_close",
 										"bh_double_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
 										"bh_round",
 										"bh_round_center",
 										"bh_round_open",
 										"bh_round_close",
 										"bh_round_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_angle",
 										"bh_angle_center",
 										"bh_angle_open",
 										"bh_angle_close",
 										"bh_angle_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content"
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
@@ -1998,7 +2012,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 26.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -2030,7 +2044,7 @@
 				"cols":
 				[
 					0.0,
-					0.686168288597,
+					0.65117594401,
 					1.0
 				],
 				"rows":
@@ -2070,11 +2084,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "Packages/User/CP-build-system.sublime-build",
-			"position": "0,0,0,0,0,56,40,1358,760,1366,768",
+			"position": "0,0,0,0,0,8,52,1358,760,1366,768",
 			"project": "",
 			"replace":
 			{
-				"height": 48.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -2138,7 +2152,7 @@
 			{
 				"max_columns": 2
 			},
-			"window_id": 91,
+			"window_id": 100,
 			"workspace_name": ""
 		}
 	],

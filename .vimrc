@@ -47,7 +47,7 @@ map <C-c> "+y
 imap <silent><C-s> <Esc>:w<CR>
 map <silent><C-s> <Esc>:w<CR>
 map <silent><C-w> <C-C>:bd<CR>
-map <silent><C-Q> <C-C>:q!<CR>
+map <silent><C-q> <C-C>:q!<CR>
 map <silent><C-O> <Esc>:tabnew#<CR>
 map <silent><C-R> <Esc>:source ~/.vimrc<CR>
 noremap i a

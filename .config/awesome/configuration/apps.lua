@@ -22,7 +22,7 @@ return {
     editor = 'gvim', -- gui text editor
     social = 'env discord',
     game = rofi_command,
-    files = 'dolphin',
+    files = 'thunar',
     music = rofi_command
   },
   -- List of apps to start once on start-up
@@ -30,14 +30,16 @@ return {
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet --indicator', -- wifi
     --'blueberry-tray', -- Bluetooth tray icon
-    --'xfce4-power-manager', -- Power manager
+    'xfce4-power-manager', -- Power manager
     'ibus-daemon --xim --daemonize', -- Ibus daemon for keyboard
     'scream-start', -- scream audio sink
     'numlockx on', -- enable numlock
-    '/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
+    --'/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     --'/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
+    '/usr/lib/xfce-polkit/xfce-polkit & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     'blueman-tray', -- bluetooth tray
-    'geary --hidden', -- Email client
+    --'lxsession',
+    --'geary --hidden', -- Email client
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions

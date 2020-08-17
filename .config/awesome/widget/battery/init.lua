@@ -30,10 +30,11 @@ local widget =
     widget = wibox.widget.imagebox,
     resize = true
   },
-  layout = wibox.layout.fixed.horizontal
+  layout = wibox.layout.fixed.horizontal,
+  opacity = 0.8
 }
 
-local widget_button = clickable_container(wibox.container.margin(widget, dpi(14), dpi(14), 4, 14))
+local widget_button = clickable_container(wibox.container.margin(widget, dpi(0), dpi(8), dpi(8), dpi(8)))
 widget_button:buttons(
   gears.table.join(
     awful.button(

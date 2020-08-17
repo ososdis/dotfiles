@@ -1,6 +1,7 @@
 local awful = require('awful')
 local spawn = require('awful.spawn')
 local app = require('configuration.apps').default.quake
+local dpi = require('beautiful').xresources.apply_dpi
 
 local quake_id = 'notnil'
 local quake_client
@@ -44,6 +45,8 @@ _G.client.connect_signal(
   function(c)
     if (c.pid == quake_id) then
       quake_client = c
+      c.x = c.screen.geometry.x
+      c.y = c.screen.geometry.height - dpi(408)
       c.opacity = 0.9
       c.floating = true
       c.skip_taskbar = true
