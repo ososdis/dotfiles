@@ -16,7 +16,7 @@ local left_panel = function(screen)
     x = screen.geometry.x + 12,
     y = screen.geometry.y + 12,
     ontop = false,
-    bg = beautiful.background.hue_800,
+    bg = beautiful.primary.hue_900,
     fg = beautiful.fg_normal
   }
 
@@ -106,7 +106,7 @@ local left_panel = function(screen)
     layout = wibox.layout.align.vertical,
     {
       id = 'panel_content',
-      bg = beautiful.background.hue_900,
+      bg = beautiful.primary.hue_900,
       widget = wibox.container.background,
       visible = false,
       forced_width = panel_content_width,

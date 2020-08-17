@@ -14,7 +14,7 @@ local icons = require('theme.icons')
 local WorkspacePanel = function(s, offset)
   local offsetx = 0
   if offset == true then
-    offsetx = dpi(48)
+    offsetx = dpi(50)
     offsety = dpi(12)
   end
   local panel =
@@ -27,7 +27,7 @@ local WorkspacePanel = function(s, offset)
       x = s.geometry.x + offsetx,
       y = s.geometry.y  + offsety,
       stretch = false,
-      bg = beautiful.background.hue_800,
+      bg = beautiful.primary.hue_900,
       fg = beautiful.fg_normal,
       struts = {
         top = dpi(32)

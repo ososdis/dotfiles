@@ -13,7 +13,7 @@ theme.font = 'Roboto medium 10'
 theme.primary = mat_colors.deep_orange
 
 -- Accent
-theme.accent = mat_colors.pink
+theme.accent = mat_colors.orange
 
 -- Background
 theme.background = mat_colors.grey
@@ -34,16 +34,16 @@ local awesome_overrides =
   theme.fg_urgent = '#CC9393'
   theme.bat_fg_critical = '#232323'
 
-  theme.bg_normal = theme.background.hue_800
+  theme.bg_normal = theme.primary.hue_900
   theme.bg_focus = '#5a5a5a'
   theme.bg_urgent = '#3F3F3F'
-  theme.bg_systray = theme.background.hue_800
+  theme.bg_systray = theme.primary.hue_900
 
   -- Borders
 
-  theme.border_width = dpi(2)
-  theme.border_normal = theme.background.hue_800
-  theme.border_focus = theme.primary.hue_300
+  theme.border_width = dpi(1)
+  theme.border_normal = theme.primary.hue_900
+  theme.border_focus = theme.primary.hue_500
   theme.border_marked = '#CC9393'
 
   -- Menu
@@ -67,32 +67,32 @@ local awesome_overrides =
 
   -- Taglist
 
-  theme.taglist_bg_empty = theme.background.hue_800
-  theme.taglist_bg_occupied = theme.background.hue_800
+  theme.taglist_bg_empty = theme.primary.hue_900
+  theme.taglist_bg_occupied = theme.primary.hue_900
   theme.taglist_bg_urgent =
-    'linear:0,0:' ..
+    'linear:0,0:0,' ..
     dpi(48) ..
-      ',0:0,' ..
+      ':0,' ..
         theme.accent.hue_500 ..
-          ':0.08,' .. theme.accent.hue_500 .. ':0.08,' .. theme.background.hue_800 .. ':1,' .. theme.background.hue_800
+          ':0.07,' .. theme.accent.hue_500 .. ':0.07,' .. theme.primary.hue_900 .. ':1,' .. theme.primary.hue_900
   theme.taglist_bg_focus =
     'linear:0,0:0,' ..
     dpi(32) ..
       ':0,' ..
-        theme.background.hue_800 ..
-          ':0.9,' .. theme.background.hue_800 .. ':0.9,' .. theme.primary.hue_500 .. ':1,' .. theme.primary.hue_500
+        theme.primary.hue_900 ..
+          ':0.9,' .. theme.primary.hue_900 .. ':0.9,' .. theme.primary.hue_500 .. ':1,' .. theme.primary.hue_500
 
   -- Tasklist
 
   theme.tasklist_font = 'Roboto medium 11'
-  theme.tasklist_bg_normal = theme.background.hue_800
+  theme.tasklist_bg_normal = theme.primary.hue_900
   theme.tasklist_bg_focus =
     'linear:0,0:0,' ..
     dpi(32) ..
       ':0,' ..
-        theme.background.hue_800 ..
-          ':0.95,' .. theme.background.hue_800 .. ':0.95,' .. theme.fg_normal .. ':1,' .. theme.fg_normal
-  theme.tasklist_bg_urgent = theme.primary.hue_800
+        theme.primary.hue_900 ..
+          ':0.9,' .. theme.primary.hue_900 .. ':0.9,' .. theme.fg_normal .. ':1,' .. theme.fg_normal
+  theme.tasklist_bg_urgent = theme.primary.hue_900
   theme.tasklist_fg_focus = '#DDDDDD'
   theme.tasklist_fg_urgent = theme.fg_normal
   theme.tasklist_fg_normal = '#AAAAAA'
@@ -100,9 +100,9 @@ local awesome_overrides =
   theme.icon_theme = 'Papirus-Dark'
 
   --Client
-  theme.border_width = dpi(2)
+  theme.border_width = dpi(1)
   theme.border_focus = theme.primary.hue_500
-  theme.border_normal = theme.background.hue_800
+  theme.border_normal = theme.primary.hue_900
 end
 return {
   theme = theme,

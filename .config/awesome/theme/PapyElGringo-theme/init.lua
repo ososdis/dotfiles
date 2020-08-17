@@ -14,7 +14,7 @@ theme.primary = mat_colors.grey
 theme.primary.hue_500 = '#d03c3f'
 -- theme.primary = mat_colors.indigo
 -- Accent
-theme.accent = mat_colors.pink
+theme.accent = mat_colors.orange
 
 -- Background
 theme.background = mat_colors.blue_grey

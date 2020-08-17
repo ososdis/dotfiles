@@ -10,8 +10,8 @@ local function run_once(cmd)
   if firstspace then
     findme = cmd:sub(0, firstspace - 1)
   end
-  --awful.spawn.with_shell(string.format('pgrep -u $USER -x %s > /dev/null || (%s)', findme, cmd))
-  awful.spawn.single_instance(string.format('pgrep -u $USER -x %s > /dev/null || (%s)', findme, cmd))
+  awful.spawn.with_shell(string.format('pgrep -u $USER -x %s > /dev/null || (%s)', findme, cmd))
+  --This broke compton ===>   awful.spawn.single_instance(string.format('pgrep -u $USER -x %s > /dev/null || (%s)', findme, cmd))
 end
 
 for _, app in ipairs(apps.run_on_start_up) do
