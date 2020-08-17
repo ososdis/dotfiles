@@ -111,7 +111,7 @@ let NERDTreeShowHidden=1
 set guioptions=
 colorscheme gruvbox
 set bg=dark
-set guifont=Anonymice\ Nerd\ Font\ Mono\ 10
+set guifont=Source\ Code\ Pro\ 10
 
 " SYSTEM SPECIFIC SETTINGS
 cd ~/Desktop/Coding\ Library/Ongoing
@@ -125,4 +125,4 @@ command Template :call Templatecpp()
 
 " COMPILE RUN
 map <C-b> <Esc>:w<CR>:!g++ -o compiled.o % -std=c++17 && ./compiled.o<Enter>
-auto BufWritePost *.cpp execute 'silent :!astyle' shellescape(expand('%'), 1)
+auto BufWritePost *.cpp execute 'silent :!astyle > /dev/null 2>&1'shellescape(expand('%'),1)
