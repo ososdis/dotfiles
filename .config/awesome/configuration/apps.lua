@@ -27,6 +27,9 @@ return {
   },
   -- List of apps to start once on start-up
   run_on_start_up = {
+     -- Add applications that need to be killed between reloads
+    -- to avoid multipled instances, inside the awspawn script
+    '~/.config/awesome/configuration/awspawn', -- Spawn "dirty" apps that can linger between sessions
     'compton --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
     'nm-applet --indicator', -- wifi
     --'blueberry-tray', -- Bluetooth tray icon
@@ -40,8 +43,5 @@ return {
     'blueman-tray', -- bluetooth tray
     --'lxsession',
     --'geary --hidden', -- Email client
-    -- Add applications that need to be killed between reloads
-    -- to avoid multipled instances, inside the awspawn script
-    '~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions
   }
 }

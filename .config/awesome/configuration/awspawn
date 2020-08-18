@@ -22,6 +22,9 @@ KILL=(
     nextcloud
     )
 
+#Kill the polkit
+killall xfce-polkit
+
 # First kill lingering apps
 for app in "${APPS[@]}"
 do
