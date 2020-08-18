@@ -26,7 +26,7 @@ Run the following commands in the terminal. This also creates a backup for any p
 ```
 git clone https://github.com/purhan/dotfiles.git
 cp ~/.config/awesome ~/.config/awesome_backup
-mv dotfiles/.config/awesome ~/.config/awesome
+mv dotfiles/.config/awesome ~/.config/
 rm -rf dotfiles
 ```
 
