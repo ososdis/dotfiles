@@ -44,4 +44,7 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 The first variable fixes most indicators (especially electron based ones!), the second tells Qt and KDE applications to use your gtk2 theme set through lxappearance.
 
-Credits: The original [fork](https://github.com/HikariKnight/material-awesome)
+* **Credits** The original [fork](https://github.com/HikariKnight/material-awesome)
+* **Wallpaper**: [Quiet Household](https://www.behance.net/gallery/80472545/Your-Home?tracking_source=search_projects_recommended%7Cmountain%20house%20wallpaper) by [Sergey Bolsun](https://www.behance.net/bolsun)
+* **GTK**: [Numix-Dark](https://github.com/numixproject/numix-gtk-theme-dark)
+* **Icons**: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
