@@ -1,23 +1,12 @@
-## Material and Mouse driven theme for [AwesomeWM 4.3](https://awesomewm.org/)
-### Original work by PapyElGringo, official development seem to have moved to [material-shell](https://github.com/PapyElGringo/material-shell)
 
-Note: This fork focuses on streamlining the config and adding some Quality of Life touches to the theme.
+## AwesomeWM Rice :)
 
-An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) following the [Material Design guidelines](https://material.io) with a performant opiniated mouse/keyboard workflow to increase daily productivity and comfort.
-
-[![](./theme/PapyElGringo-theme/demo.gif?raw=true)](https://www.reddit.com/r/unixporn/comments/anp51q/awesome_material_awesome_workflow/)
-*[Click to view in high quality](https://www.reddit.com/r/unixporn/comments/anp51q/awesome_material_awesome_workflow/)*
-
-| Tiled         | Panel         | Exit screen   |
-|:-------------:|:-------------:|:-------------:|
-|![](https://i.imgur.com/fELCtep.png)|![](https://i.imgur.com/7IthpQS.png)|![](https://i.imgur.com/rcKOLYQ.png)|
-
-
+![](https://i.redd.it/ck8zw9ypzph51.png)
+You're probably here from reddit...
+Let's get straight to the point.
 
 ## Installation
-### Note: the best transition is from gnome to material-awesome as KDE-plasma can break some indicators until plasma is purged entierly.
-
-### 1) Get all the dependencies
+### 1) Install the dependencies
 - [AwesomeWM](https://awesomewm.org/) as the window manager
 - [Roboto](https://fonts.google.com/specimen/Roboto) as the **font**
 - [Rofi](https://github.com/DaveDavenport/rofi) for the app launcher
@@ -33,15 +22,12 @@ An almost desktop environment made with [AwesomeWM](https://awesomewm.org/) foll
 - (Optional) [kde-spectacle](https://kde.org/applications/utilities/org.kde.spectacle) my personal screenshot utility of choice, can be replaced by whichever you want, just remember to edit the screenshot utility script
 
 ### 2) Clone the configuration
-
+Run the following commands in the terminal. This also creates a backup for any pre-existing configuration.
 ```
-git clone https://github.com/HikariKnight/material-awesome.git ~/.config/awesome
-```
-
-> Awesome 4.3 is so new that most of the distributions have not updated it yet. If you want to install this config on Awesome 4.2 (current version on depo) use the specific awesome-4.2 branch (not in development by me)
-
-```
-git clone -b awesome-4.2 https://github.com/PapyElGringo/material-awesome.git ~/.config/awesome
+git clone https://github.com/purhan/dotfiles.git
+cp ~/.config/awesome ~/.config/awesome_backup
+mv dotfiles/.config/awesome ~/.config/awesome
+rm -rf dotfiles
 ```
 
 ### 3) Set the themes
@@ -58,14 +44,4 @@ QT_QPA_PLATFORMTHEME=gtk2
 
 The first variable fixes most indicators (especially electron based ones!), the second tells Qt and KDE applications to use your gtk2 theme set through lxappearance.
 
-
-### 5) Read the documentation
-The documentation live within the source code.
-
-The project is split in functional directories and in each of them there is a readme where you can get additionnal informations about the them.
-
-* [Configuration](./configuration) is about all the **settings** available
-* [Layout](./layout) hold the **disposition** of all the widgets
-* [Module](./module) contain all the **features** available
-* [Theme](./theme) hold all the **aestetic** aspects
-* [Widget](./widget) contain all the **widgets** available
+Credits: The original [fork](https://github.com/HikariKnight/material-awesome)
