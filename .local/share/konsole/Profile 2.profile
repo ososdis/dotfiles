@@ -1,7 +1,9 @@
 [Appearance]
 AntiAliasFonts=true
+BoldIntense=false
 ColorScheme=MonokaiKonsole
 Font=Source Code Pro for Powerline,10,-1,5,50,0,0,0,0,0
+UseFontLineChararacters=false
 
 [Cursor Options]
 CursorShape=1
