@@ -20,7 +20,7 @@ local TopPanel = function(s, offset)
   local offsetx = 0
   if offset == true then
     offsetx = dpi(128)
-    offsety = dpi(12)
+    offsety = dpi(4)
   end
   local panel =
     wibox(
@@ -42,7 +42,7 @@ local TopPanel = function(s, offset)
 
   panel:struts(
     {
-      top = dpi(44)
+      top = dpi(0)
     }
   )
 

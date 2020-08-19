@@ -15,7 +15,7 @@ local WorkspacePanel = function(s, offset)
   local offsetx = 0
   if offset == true then
     offsetx = dpi(50)
-    offsety = dpi(12)
+    offsety = dpi(4)
   end
   local panel =
     wibox(
@@ -23,7 +23,7 @@ local WorkspacePanel = function(s, offset)
       ontop = false,
       screen = s,
       height = dpi(32),
-      width = dpi(192),
+      width = dpi(180),
       x = s.geometry.x + offsetx,
       y = s.geometry.y  + offsety,
       stretch = false,
@@ -37,7 +37,7 @@ local WorkspacePanel = function(s, offset)
 
   panel:struts(
     {
-      top = dpi(44)
+      top = dpi(0)
     }
   )
 
