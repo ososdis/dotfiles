@@ -37,7 +37,7 @@ do
             -a)
                 echo "Adding the whole config ..."
                 cd ~/
-                config add assistant.sh .bashrc .vimrc .astylerc conf-scripts .gtkrc-2.0
+                config add assistant.sh .bashrc .vimrc .astylerc conf-scripts .gtkrc-2.0 RICE
 
                 cd .config
                 config add awesome Code sublime-text-3 gtk-2.0 gtk-3.0 guake powerline-shell konsolerc spectaclerc 
@@ -55,6 +55,10 @@ do
     commit)
         config commit -m "$arg1"
         ;;
+    log)
+	config log;;
+    status)
+	config status;;
     push)
         config push
         ;;

@@ -2,9 +2,9 @@
 update_info=spectacle_newConfig.upd:spectacle-new-config
 
 [GuiConfig]
-cropRegion=212,183,600,477
+cropRegion=266,197,847,434
 window-position=50,0
 
 [Save]
 lastSaveAsLocation=file:///home/purhan/Pictures/Screenshot_20200817_233536.png
-lastSaveLocation=file:///home/purhan/Pictures/Screenshot_20200818_201154.png
+lastSaveLocation=file:///home/purhan/Pictures/Screenshot_20200819_155409.png
