@@ -53,7 +53,7 @@ do
         esac
         ;;
     commit)
-        config commit -m "arg1"
+        config commit -m "$arg1"
         ;;
     push)
         config push
