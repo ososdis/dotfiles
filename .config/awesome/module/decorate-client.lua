@@ -1,6 +1,7 @@
 local awful = require('awful')
 local gears = require('gears')
 local beautiful = require('beautiful')
+local dpi = require('beautiful').xresources.apply_dpi
 
 local function renderClient(client, mode)
   if client.skip_decoration or (client.rendering_mode == mode) then
@@ -18,13 +19,13 @@ local function renderClient(client, mode)
   client.maximized_vertical = false
 
   if client.rendering_mode == 'maximized' then
-    client.border_width = 0
+    client.border_width = dpi(1)
     client.shape = function(cr, w, h)
       gears.shape.rectangle(cr, w, h)
     end
   elseif client.rendering_mode == 'tiled' then
 --      client.border_width = beautiful.border_width
-      client.border_width = 3
+      client.border_width = dpi(1)
     client.shape = function(cr, w, h)
       gears.shape.rectangle(cr, w, h)
     end

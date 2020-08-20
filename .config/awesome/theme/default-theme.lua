@@ -101,7 +101,7 @@ local awesome_overrides =
 
   --Client
   theme.border_width = dpi(1)
-  theme.border_focus = theme.primary.hue_500
+  theme.border_focus = theme.primary.hue_100
   theme.border_normal = theme.primary.hue_900
 end
 return {

@@ -1053,7 +1053,7 @@
 					"file": "/home/purhan/Desktop/Coding Library/Ongoing/a.cpp",
 					"settings":
 					{
-						"buffer_size": 2791,
+						"buffer_size": 1336,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -1062,19 +1062,9 @@
 					"file": "/home/purhan/Desktop/Coding Library/Ongoing/input.txt",
 					"settings":
 					{
-						"buffer_size": 23,
+						"buffer_size": 36,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
-					}
-				},
-				{
-					"contents": "0 6 1 \n2 1 \n3 4 0 \n[Finished in 3.70s]",
-					"settings":
-					{
-						"buffer_size": 38,
-						"line_ending": "Unix",
-						"name": "Terminal",
-						"scratch": true
 					}
 				}
 			],
@@ -1678,15 +1668,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2791,
+								"buffer_size": 1336,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										682,
-										682
+										899,
+										899
 									]
 								],
 								"settings":
@@ -1698,8 +1688,8 @@
 										{
 											"1":
 											[
-												915,
-												916
+												904,
+												905
 											]
 										},
 										"icon":
@@ -1714,8 +1704,8 @@
 										{
 											"1":
 											[
-												664,
-												665
+												821,
+												822
 											]
 										},
 										"unmatched":
@@ -1724,16 +1714,26 @@
 									},
 									"bracket_highlighter.regions":
 									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
 										"bh_single_quote_close",
 										"bh_single_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
@@ -1754,42 +1754,37 @@
 										"bh_double_quote_open",
 										"bh_double_quote_close",
 										"bh_double_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_angle",
 										"bh_angle_center",
 										"bh_angle_open",
 										"bh_angle_close",
 										"bh_angle_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content"
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"syntax": "Packages/C++/C++.sublime-syntax",
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 366.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						}
+					]
+				},
+				{
+					"sheets":
+					[
 					]
 				},
 				{
@@ -1802,15 +1797,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 23,
+								"buffer_size": 36,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										23,
-										23
+										36,
+										36
 									]
 								],
 								"settings":
@@ -1833,16 +1828,26 @@
 									},
 									"bracket_highlighter.regions":
 									[
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
 										"bh_single_quote_close",
 										"bh_single_quote_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
@@ -1863,31 +1868,21 @@
 										"bh_double_quote_open",
 										"bh_double_quote_close",
 										"bh_double_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
 										"bh_angle",
 										"bh_angle_center",
 										"bh_angle_open",
 										"bh_angle_close",
 										"bh_angle_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content"
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content"
 									],
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
@@ -1896,100 +1891,6 @@
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
-							"type": "text"
-						}
-					]
-				},
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 2,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 38,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										38,
-										38
-									]
-								],
-								"settings":
-								{
-									"__vi_external_disable": true,
-									"auto_complete": false,
-									"auto_complete_commit_on_tab": false,
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.clone_locations":
-									{
-									},
-									"bracket_highlighter.ignore": true,
-									"color_scheme": "Terminus.hidden-color-scheme",
-									"draw_centered": false,
-									"draw_indent_guides": false,
-									"draw_unicode_white_space": false,
-									"draw_white_space": "none",
-									"gutter": false,
-									"highlight_line": false,
-									"is_widget": true,
-									"result_base_dir": "/home/purhan/Desktop/Coding Library/Ongoing",
-									"result_file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-									"result_line_regex": null,
-									"rulers":
-									[
-										500
-									],
-									"scroll_past_end": true,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"terminus.highlight_counter": 3,
-									"terminus_view": true,
-									"terminus_view.args":
-									{
-										"auto_close": false,
-										"cancellable": false,
-										"cmd":
-										[
-											"bash",
-											"-c",
-											"g++ -std=c++17 -Wall -Wextra -Wshadow -fsanitize=undefined '/home/purhan/Desktop/Coding Library/Ongoing/a.cpp' -o '/home/purhan/Desktop/Coding Library/Ongoing/compiled'.o && tput setaf 2 && timeout 5s '/home/purhan/Desktop/Coding Library/Ongoing/compiled.o' < input.txt"
-										],
-										"config_name": "Login Shell",
-										"cwd": "/home/purhan/Desktop/Coding Library/Ongoing",
-										"env":
-										{
-											"LANG": "en_US.utf8",
-											"TERM": "linux",
-											"TERMINUS_SUBLIME": "1",
-											"TERM_PROGRAM": "Terminus-Sublime"
-										},
-										"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
-										"line_regex": null,
-										"panel_name": null,
-										"tag": null,
-										"timeit": true,
-										"title": "Terminal"
-									},
-									"terminus_view.cancellable": false,
-									"terminus_view.closed": true,
-									"terminus_view.key.ctrl+k": true,
-									"terminus_view.key.ctrl+p": true,
-									"terminus_view.natural_keyboard": true,
-									"terminus_view.panel_name": null,
-									"terminus_view.tag": null,
-									"terminus_view.viewport_y": 1.0,
-									"word_wrap": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 1.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
 							"type": "text"
 						}
 					]
@@ -2010,14 +1911,14 @@
 					[
 						0,
 						0,
-						2,
-						1
-					],
-					[
-						0,
-						1,
 						1,
 						2
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					],
 					[
 						1,
@@ -2029,13 +1930,13 @@
 				"cols":
 				[
 					0.0,
-					0.5,
+					0.729758922,
 					1.0
 				],
 				"rows":
 				[
 					0.0,
-					0.739508314795,
+					0.5,
 					1.0
 				]
 			},
@@ -2058,7 +1959,7 @@
 			},
 			"output.exec":
 			{
-				"height": 32.0
+				"height": 151.0
 			},
 			"output.find_results":
 			{
@@ -2068,8 +1969,8 @@
 			{
 				"height": 0.0
 			},
-			"pinned_build_system": "Packages/User/CP-build-system.sublime-build",
-			"position": "0,0,0,0,0,687,42,1352,754,1366,768",
+			"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+			"position": "0,0,0,0,0,687,42,1356,758,1366,768",
 			"project": "",
 			"replace":
 			{
@@ -2123,7 +2024,7 @@
 				],
 				"width": 0.0
 			},
-			"selected_group": 2,
+			"selected_group": 0,
 			"settings":
 			{
 			},
